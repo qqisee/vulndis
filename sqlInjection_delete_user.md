@@ -34,3 +34,8 @@ Connection: Keep-alive
 Causes of vulnerabilities：
 
 Insufficient parameter filtering for the user led to time-based blind injection.
+
+```
+$query = "DELETE FROM `tbl_user` WHERE `tbl_user_id` = '$user'";
+```
+SQL injection persists due to the incorrect use of prepare statements in the endpoint\delete-user.php line 9.
