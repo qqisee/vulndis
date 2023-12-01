@@ -31,3 +31,8 @@ contact_number=1&email=testing%40example.com&first_name=LgyxmpHT--><ScRiPt%20>al
 Then access /home.php 
 
 ![Alt text](image-1.png)
+
+
+Causes of vulnerabilities：
+
+When adding a user, there is omission of filtering for dangerous XSS parameters. Consequently, when a user accesses /home.php, and home.php also lacks proper filtering for hazardous XSS parameters, it leads to XSS vulnerabilities.
