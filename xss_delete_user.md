@@ -4,7 +4,6 @@ BUG_Author: hlhyp
 
 vendors: https://www.sourcecodester.com/php/16890/user-registration-and-login-system-using-php-source-code.html
 
-dbname = registration_login_db
 
 
 Vulnerability File: /endpoint/delete-user.php
