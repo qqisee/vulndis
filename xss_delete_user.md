@@ -24,3 +24,9 @@ Connection: Keep-alive
 
 ```
 ![Alt text](image.png)
+
+Causes of vulnerabilities：
+
+endpoint\delete-user.php -> line32 -> echo "Error: " . $e->getMessage();
+
+echo error message without filtering resulted in xss
