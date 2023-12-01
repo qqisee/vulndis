@@ -30,3 +30,7 @@ Connection: Keep-alive
 
 2. sleep(15)
 ![Alt text](image-3.png)
+
+Causes of vulnerabilities：
+
+Insufficient parameter filtering for the user led to time-based blind injection.
