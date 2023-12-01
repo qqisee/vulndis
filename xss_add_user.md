@@ -6,7 +6,6 @@ vendors: https://www.sourcecodester.com/php/16890/user-registration-and-login-sy
 
 
 username && password : admin/admin
-dbname = registration_login_db
 
 Vulnerability File: /endpoint/add-user.php ;/home.php
 
